@@ -1,0 +1,33 @@
+.BlogPage {
+  padding-top: 20px;
+}
+.BlogPageName {
+  margin-bottom: 30px;
+  span {
+    color: green;
+    font-size: 36px;
+  }
+}
+.BtnAddPost {
+  padding: 6px;
+  background-color: #e74c3c;
+  border-radius: 4px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  color: #fff;
+}
+.LinkAddPost {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.BtnAddPost:hover,
+.LinkAddPost:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #c03f31;
+  transition: all .2s;
+}

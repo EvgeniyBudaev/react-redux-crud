@@ -1,0 +1,15 @@
+.error_indicator {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+}
+.boom {
+  font-weight: 700;
+}
+.error_icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}

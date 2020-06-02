@@ -1,0 +1,53 @@
+.EditBlog {
+  padding-top: 20px;
+}
+.ImgAndBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.BtnSubmit {
+  padding: 6px;
+  background-color: #e74c3c;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  button {
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+.BtnSubmit:hover,
+.Submit:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #c03f31;
+  transition: all .2s;
+}
+.BtnGoBack {
+  padding: 6px;
+  background-color: #8bc34a;
+  border-radius: 4px;
+}
+.LinkGoBack {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.BtnGoBack:hover,
+.LinkGoBack:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(9, 97, 9);
+  transition: all .2s;
+}
+.InputTitle {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
